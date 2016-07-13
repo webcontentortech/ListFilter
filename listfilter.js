@@ -8,7 +8,9 @@ $(document).ready(function(){
         $("#m1").click(function(){
             var obj=List1[0];
             console.log(obj);
-            $("#1").text(obj.Name);
+            //var x = document.getElementById("myOption").text;
+    document.getElementById("1").innerHTML = "name:"+obj.Name+",Id:"+obj.Id+",color:"+obj.color+",Price:"+obj.Price+",company:"+obj.Company+",Memory:"+obj.Memory;
+
         });
     }           
 });     
