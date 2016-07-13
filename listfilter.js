@@ -3,25 +3,25 @@ var List2=[{Name:"Dells1",Id:1,color:"Gold",Price:50000,Company:"Dell",Memory:"6
 var List3=[{Name:"hpT1",Id:1,color:"Gold",Price:15000,Company:"hp",Memory:"16Gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"hpt2",Id:3,color:"white",Price:30000,Company:"hp",Memory:"32Gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"hpt3",Id:5,color:"Gold",Price:15000,Company:"hp",Memory:"8Gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"DellT8",Id:7,color:"Gold",Price:30000,Company:"Dell",Memory:"64Gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"DellT6",Id:9,color:"white",Price:45000,Company:"Dell",Memory:"32Gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"AppleT9",Id:2,color:"Gold",Price:60000,Company:"Apple",Memory:"64Gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"AppleT3",Id:4,color:"Gold",Price:55000,Company:"Apple",Memory:"32Gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"SonyTu",Id:6,color:"black",Price:40000,Company:"Sony",Memory:"32Gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"SonyT1",Id:8,color:"Gold",Price:30000,Company:"Sony",Memory:"16Gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"SonyT3",Id:10,color:"black",Price:40000,Company:"Sony",Memory:"64Gb",feature:{touch:"true",camera:"true",sensor:"true"}}];
 
 $(document).ready(function(){
-	showMobileData();
-	function showMobileData(){
-		$("#m1").click(function(){
-			var obj=List1[0];
-			console.log(obj);
-			document.getElementById("1").innerHTML ="Id:1"+"name :"+obj.Name;
-		});
-	}		 	
-});	 	
+    showMobileData();
+    function showMobileData(){
+        $("#m1").click(function(){
+            var obj=List1[0];
+            console.log(obj);
+            $("#1").text(obj);
+        });
+    }           
+});     
 
-	 
-	
-	
-	
-	
-			
-            	
-		
-	
+     
+    
+    
+    
+    
+            
+                
+        
+    
     
 
 
