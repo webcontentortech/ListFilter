@@ -8,23 +8,7 @@ $(document).ready(function(){
         $("#m1").click(function(){
             var obj=List1[0];
             console.log(obj);
-            $("#1").text(obj);
+            $("#1").text(obj.Name);
         });
     }           
 });     
-
-     
-    
-    
-    
-    
-            
-                
-        
-    
-    
-
-
-
-
-
