@@ -1,7 +1,6 @@
-var list1=[{Name:"Galaxy7pro",Id:1,color:"Gold",Price:8000,Company:"samsung",Memory:"16gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"GalaxyJ3",Id:2,color:"white",Price:5000,Company:"samsung",Memory:"4gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"Galaxyz3",Id:3,color:"black",Price:3000,Company:"samsung",Memory:"2gb",feature:{touch:"false",camera:"true",sensor:"false"}},{Name:"Nokiaj4",Id:4,color:"Gold",Price:10000,Company:"nokia",Memory:"16gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"NokiaA3",Id:5,color:"blue",Price:7000,Company:"nokia",Memory:"8gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"htcA25",Id:6,color:"Gold",Price:6000,Company:"htc",Memory:"8gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"htcNeo",Id:7,color:"black",Price:4000,Company:"htc",Memory:"4gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"Micromax24",Id:8,color:"white",Price:7000,Company:"micromax",Memory:"16gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"MicromaxE",Id:9,color:"Gold",Price:1000,Company:"micromax",Memory:"8gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"Mc10",Id:10,color:"white",Price:9000,Company:"sony",Memory:"2gb",feature:{touch:"false",camera:"true",sensor:"false"}}];
-var list2=[{Name:"Dells1",Id:1,color:"Gold",Price:50000,Company:"dell",Memory:"64gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"Dells3",Id:2,color:"white",Price:70000,Company:"lenovo",Memory:"32gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"hp1",Id:3,color:"black",Price:75000,Company:"hp",Memory:"128gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"hp3",Id:4,color:"Gold",Price:60000,Company:"acer",Memory:"64gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"hp4",Id:5,color:"Gold",Price:75000,Company:"hp",Memory:"32gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"Apple*i",Id:6,color:"white",Price:80000,Company:"apple",Memory:"256gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"Apple5",Id:7,color:"Gold",Price:40000,Company:"apple",Memory:"256gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"Sony2",Id:8,color:"black",Price:40000,Company:"sony",Memory:"32gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"Sony1",Id:9,color:"white",Price:50000,Company:"sony",Memory:"64gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"Sony3",Id:10,color:"Gold",Price:60000,Company:"sony",Memory:"32gb",feature:{touch:"true",camera:"true",sensor:"false"}}];
-var list3=[{Name:"hpT1",Id:1,color:"Gold",Price:15000,Company:"hp",Memory:"16gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"hpt2",Id:2,color:"white",Price:30000,Company:"hp",Memory:"32gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"hpt3",Id:3,color:"Gold",Price:15000,Company:"hp",Memory:"8gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"DellT8",Id:4,color:"Gold",Price:30000,Company:"dell",Memory:"64gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"DellT6",Id:5,color:"white",Price:45000,Company:"dell",Memory:"32gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"AppleT9",Id:6,color:"Gold",Price:60000,Company:"apple",Memory:"64gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"AppleT3",Id:7,color:"Gold",Price:55000,Company:"apple",Memory:"32gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"SonyTu",Id:8,color:"black",Price:40000,Company:"sony",Memory:"32gb",feature:{touch:"true",camera:"true",sensor:"true"}},{Name:"SonyT1",Id:9,color:"Gold",Price:30000,Company:"sony",Memory:"16gb",feature:{touch:"true",camera:"true",sensor:"false"}},{Name:"SonyT3",Id:10,color:"black",Price:40000,Company:"sony",Memory:"64gb",feature:{touch:"true",camera:"true",sensor:"true"}}];
-
+var list1=[{Name:"Galaxy7pro",Id:1,color:"Gold",Price:8000,Company:"samsung",Memory:"16gb",touch:"true",camera:"true",sensor:"true"},{Name:"iphone",Id:2,color:"white",Price:20000,Company:"apple",Memory:"64gb",touch:"true",camera:"true",sensor:"true"},{Name:"gionee1",Id:3,color:"black",Price:9000,Company:"gionee",Memory:"32gb",touch:"true",camera:"true",sensor:"true"},{Name:"Nokiaj4",Id:4,color:"Gold",Price:1500,Company:"nokia",Memory:"2gb",touch:"false",camera:"false",sensor:"false"},{Name:"motorolas",Id:5,color:"blue",Price:2000,Company:"motorola",Memory:"4gb",touch:"true",camera:"true",sensor:"false"},{Name:"htcA25",Id:6,color:"Gold",Price:6000,Company:"htc",Memory:"8gb",touch:"true",camera:"true",sensor:"true"},{Name:"micromax2",Id:7,color:"black",Price:7000,Company:"micromax",Memory:"16gb",touch:"true",camera:"true",sensor:"true"},{Name:"blackberry",Id:8,color:"white",Price:4000,Company:"blackberry",Memory:"8gb",touch:"true",camera:"true",sensor:"false"},{Name:"sony2",Id:9,color:"Gold",Price:3000,Company:"sony",Memory:"8gb",touch:"false",camera:"true",sensor:"false"},{Name:"Mc10",Id:10,color:"white",Price:2500,Company:"LG",Memory:"2gb",touch:"false",camera:"true",sensor:"false"}];
+var list2=[{Name:"Dells1",Id:1,color:"Gold",Price:10000,Company:"dell",Memory:"32gb",touch:"true",camera:"true",sensor:"true"},{Name:"lenovo1",Id:2,color:"white",Price:50000,Company:"lenovo",Memory:"64gb",touch:"true",camera:"true",sensor:"true"},{Name:"hp1",Id:3,color:"black",Price:60000,Company:"hp",Memory:"128gb",touch:"true",camera:"true",sensor:"true"},{Name:"sony1",Id:4,color:"Gold",Price:70000,Company:"sony",Memory:"256gb",touch:"true",camera:"true",sensor:"true"},{Name:"apple1",Id:5,color:"Gold",Price:75000,Company:"apple",Memory:"512gb",touch:"true",camera:"true",sensor:"true"},{Name:"gionee1",Id:6,color:"white",Price:86000,Company:"gionee",Memory:"256gb",touch:"true",camera:"true",sensor:"true"},{Name:"blackberry2",Id:7,color:"Gold",Price:94000,Company:"blackberry",Memory:"256gb",touch:"true",camera:"true",sensor:"true"},{Name:"micromax1",Id:8,color:"black",Price:95000,Company:"micromax",Memory:"32gb",touch:"true",camera:"true",sensor:"false"},{Name:"motorola",Id:9,color:"white",Price:110000,Company:"motorola",Memory:"64gb",touch:"true",camera:"true",sensor:"true"},{Name:"lg1",Id:10,color:"Gold",Price:80000,Company:"lg",Memory:"32gb",touch:"true",camera:"true",sensor:"false"}];
+var list3=[{Name:"Samsung1",Id:1,color:"Gold",Price:7000,Company:"samsung",Memory:"8gb",touch:"true",camera:"true",sensor:"false"},{Name:"Nokia1",Id:2,color:"white",Price:8000,Company:"nokia",Memory:"16gb",touch:"true",camera:"true",sensor:"true"},{Name:"htc2",Id:3,color:"Gold",Price:9500,Company:"htc",Memory:"32gb",touch:"true",camera:"true",sensor:"false"},{Name:"sony2",Id:4,color:"Gold",Price:10000,Company:"sony",Memory:"64gb",touch:"true",camera:"true",sensor:"true"},{Name:"Apple3",Id:5,color:"white",Price:12000,Company:"apple",Memory:"128gb",touch:"true",camera:"true",sensor:"true"},{Name:"gioneex",Id:6,color:"Gold",Price:17000,Company:"gionee",Memory:"64gb",touch:"true",camera:"true",sensor:"true"},{Name:"blackberrye",Id:7,color:"Gold",Price:20000,Company:"blackberry",Memory:"32gb",touch:"true",camera:"true",sensor:"true"},{Name:"micromax2",Id:8,color:"black",Price:30000,Company:"micromax",Memory:"32gb",touch:"true",camera:"true",sensor:"true"},{Name:"moto1",Id:9,color:"Gold",Price:46000,Company:"motorola",Memory:"16gb",touch:"true",camera:"true",sensor:"false"},{Name:"lgx",Id:10,color:"black",Price:60000,Company:"lg",Memory:"64gb",touch:"true",camera:"true",sensor:"true"}];
 $(document).ready(function() {
     $("#filter1").hide();
     $("#filter2").hide();
@@ -12,10 +11,23 @@ $(document).ready(function() {
     laptopfilter();
     Mobilefilter();
     Tabletfilter();
-    Allfilter();
+    Laptoptouch();
+    Laptopcamera();
+    Laptopsensor();
+    Tablettouch();
+    Tabletcamera();
+    Tabletsensor();
+    mobiletouch();
+    mobilecamera();
+    mobilesensor();
+    var x;
+    var p;
+    var q;
+    var r;
+    var a;
 
     function showMobileData() {
-        for (var j = 1; j <= 2; j++) {
+        for (var j = 0; j <= 5; j++) {
             $("#" + j).hide()
         }
         $("#row").hide();
@@ -26,7 +38,6 @@ $(document).ready(function() {
                 var rowDataObj = list1[i];
 
                 document.getElementById("row" + i).innerHTML = getRowHtml(rowDataObj);
-
             }
         });
     }
@@ -38,9 +49,9 @@ $(document).ready(function() {
         var priceHtml = "  Price: " + rowDataObj.Price;
         var companyHtml = "  Company: " + rowDataObj.Company;
         var memoryHtml = "  Memory: " + rowDataObj.Memory;
-        var cameraHtml = "  Camera: " + rowDataObj.feature.camera;
-        var sensorHtml = "  Sensor: " + rowDataObj.feature.sensor;
-        var touchHtml = "  Touch: " + rowDataObj.feature.touch;
+        var cameraHtml = "  Camera: " + rowDataObj.camera; //!= false? rowDataObj.camera : '';
+        var sensorHtml = "  Sensor: " + rowDataObj.sensor;  //!= false? rowDataObj.sensor: '';
+        var touchHtml = "  Touch: " + rowDataObj.touch; //!= false? rowDataObj.touch: '';
 
         var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
 
@@ -48,7 +59,7 @@ $(document).ready(function() {
     }
 
     function showLaptopData() {
-        for (var j = 3; j <= 4; j++) {
+        for (var j = 0; j <= 5; j++) {
             $("#" + j).hide()
         }
         $("#rows").hide();
@@ -56,30 +67,15 @@ $(document).ready(function() {
             $("#filter2").show();
             $("#rows").show();
             for (var k = 0; k < list2.length; k++) {
-                var rowDataObj1 = list2[k];
-                document.getElementById("rows" + k).innerHTML = getRowHtml1(rowDataObj1);
+                var rowDataObj = list2[k];
+                document.getElementById("rows" + k).innerHTML = getRowHtml(rowDataObj);
             }
         });
     }
 
-    var getRowHtml1 = function(rowDataObj1) {
-        var idHtml = "Id: " + rowDataObj1.Id;
-        var nameHtml = "  Name: " + rowDataObj1.Name;
-        var colorHtml = "  Color: " + rowDataObj1.color;
-        var priceHtml = "  Price: " + rowDataObj1.Price;
-        var companyHtml = "  Company: " + rowDataObj1.Company;
-        var memoryHtml = "  Memory: " + rowDataObj1.Memory;
-        var cameraHtml = "  Camera: " + rowDataObj1.feature.camera;
-        var sensorHtml = "  Sensor: " + rowDataObj1.feature.sensor;
-        var touchHtml = "  Touch: " + rowDataObj1.feature.touch;
-
-        var completeRowHtml1 = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
-
-        return completeRowHtml1;
-    }
 
     function showTabletData() {
-        for (var j = 5; j <= 6; j++) {
+        for (var j = 1; j <= 5; j++) {
             $("#" + j).hide()
         }
         $("#rowss").hide();
@@ -87,39 +83,39 @@ $(document).ready(function() {
             $("#filter3").show();
             $("#rowss").show();
             for (var l = 0; l < list3.length; l++) {
-                var rowDataObj2 = list3[l];
-                document.getElementById("rowss" + l).innerHTML = getRowHtml2(rowDataObj2);
+                var rowDataObj = list3[l];
+                document.getElementById("rowss" + l).innerHTML = getRowHtml(rowDataObj);
             }
         });
     }
 
-    var getRowHtml2 = function(rowDataObj2) {
-        var idHtml = "Id: " + rowDataObj2.Id;
-        var nameHtml = "  Name: " + rowDataObj2.Name;
-        var colorHtml = "  Color: " + rowDataObj2.color;
-        var priceHtml = "  Price: " + rowDataObj2.Price;
-        var companyHtml = "  Company: " + rowDataObj2.Company;
-        var memoryHtml = "  Memory: " + rowDataObj2.Memory;
-        var cameraHtml = "  Camera: " + rowDataObj2.feature.camera;
-        var sensorHtml = "  Sensor: " + rowDataObj2.feature.sensor;
-        var touchHtml = "  Touch: " + rowDataObj2.feature.touch;
 
-        var completeRowHtml2 = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
-
-        return completeRowHtml2;
-    }
 
     function Mobilefilter() {
+
         $("#price").on("change", function() {
             var price = $("#price").val();
-            var a = _.find(list1, function(val, key) {
+            a = _.find(list1, function(val, key) {
                 return val.Price == price;
             });
             console.log(a);
             $("#row").hide();
             $("#1").show();
-            document.getElementById("1").innerHTML = "Id:" + a.Id + ",name:" + a.Name + ",color:" + a.color + ",Price:" + a.Price + ",company:" + a.Company + ",Memory:" + a.Memory + ",feature:camera:" + a.feature.camera + ",sensor:" + a.feature.sensor + ",touch:" + a.feature.touch;
+            var idHtml = "Id: " + a.Id;
+            var nameHtml = "  Name: " + a.Name;
+            var colorHtml = "  Color: " + a.color;
+            var priceHtml = "  Price: " + a.Price;
+            var companyHtml = "  Company: " + a.Company;
+            var memoryHtml = "  Memory: " + a.Memory;
+            var cameraHtml = "  Camera: " + a.camera;
+            var sensorHtml = "  Sensor: " + a.sensor;
+            var touchHtml = "  Touch: " + a.touch;
+
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("ok0").innerHTML = completeRowHtml;
+            console.log(completeRowHtml);
         });
+
         $("#company").on("change", function() {
             var cmpany = $("#company").val();
             var b = _.find(list1, function(val, key) {
@@ -128,8 +124,20 @@ $(document).ready(function() {
             console.log(b);
             $("#row").hide();
             $("#1").show();
-            document.getElementById("1").innerHTML = "Id:" + b.Id + ",name:" + b.Name + ",color:" + b.color + ",Price:" + b.Price + ",company:" + b.Company + ",Memory:" + b.Memory + ",feature:camera:" + b.feature.camera + ",sensor:" + b.feature.sensor + ",touch:" + b.feature.touch;
-        })
+            var idHtml = "Id: " + b.Id;
+            var nameHtml = "  Name: " + b.Name;
+            var colorHtml = "  Color: " + b.color;
+            var priceHtml = "  Price: " + b.Price;
+            var companyHtml = "  Company: " + b.Company;
+            var memoryHtml = "  Memory: " + b.Memory;
+            var cameraHtml = "  Camera: " + b.camera;
+            var sensorHtml = "  Sensor: " + b.sensor;
+            var touchHtml = "  Touch: " + b.touch;
+
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("ok0").innerHTML = completeRowHtml;
+        });
+
         $("#memory").on("change", function() {
             var mmory = $("#memory").val();
             var c = _.find(list1, function(val, key) {
@@ -137,8 +145,81 @@ $(document).ready(function() {
             });
             console.log(c);
             $("#row").hide();
-            $("#1").show();
-            document.getElementById("1").innerHTML = "Id:" + c.Id + ",name:" + c.Name + ",color:" + c.color + ",Price:" + c.Price + ",company:" + c.Company + ",Memory:" + c.Memory + ",feature:camera:" + c.feature.camera + ",sensor:" + c.feature.sensor + ",touch:" + c.feature.touch;
+            $("#ok0").show();
+            var idHtml = "Id: " + c.Id;
+            var nameHtml = "  Name: " + c.Name;
+            var colorHtml = "  Color: " + c.color;
+            var priceHtml = "  Price: " + c.Price;
+            var companyHtml = "  Company: " + c.Company;
+            var memoryHtml = "  Memory: " + c.Memory;
+            var cameraHtml = "  Camera: " + c.camera;
+            var sensorHtml = "  Sensor: " + c.sensor;
+            var touchHtml = "  Touch: " + c.touch;
+
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("ok0").innerHTML = completeRowHtml;
+        });
+    }
+
+    function mobiletouch() {
+        for (var j = 1; j <= 2; j++) {
+            $("#" + j).hide()
+        }
+        $("#row").hide();
+        $("#touch").on("change", function() {
+            p = document.getElementById("touch").checked;
+            console.log(p);
+            x = _.filter(list1, function(val, key) {
+                return val.touch == "true";
+            });
+            console.log(x);
+            $("#row").hide();
+            $("#okk").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("ok" + i).innerHTML = getRowHtml(rowDataObj);
+            }
+        });
+    }
+
+    function mobilecamera() {
+        for (var j = 1; j <= 5; j++) {
+            $("#" + j).hide()
+        }
+        $("#row").hide();
+        $("#camera").on("change", function() {
+            q = document.getElementById("camera").checked;
+            x = _.filter(list1, function(val, key) {
+                return val.camera == "true";
+            });
+            console.log(x);
+            $("#row").hide();
+            $("#okk").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("ok" + i).innerHTML = getRowHtml(rowDataObj);
+            }
+        });
+    }
+
+    function mobilesensor() {
+        for (var j = 1; j <= 5; j++) {
+            $("#" + j).hide()
+        }
+        $("#row").hide();
+        $("#sensor").on("change", function() {
+            r = document.getElementById("sensor").checked;
+            console.log(sensor);
+            x = _.filter(list1, function(val, key) {
+                return val.sensor == "true";
+            });
+            console.log(x);
+            $("#row").hide();
+            $("#okk").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("ok" + i).innerHTML = getRowHtml(rowDataObj);
+            }
         });
     }
 
@@ -150,9 +231,22 @@ $(document).ready(function() {
             });
             console.log(m);
             $("#rowss").hide();
-            $("#5").show();
-            document.getElementById("5").innerHTML = "Id:" + m.Id + ",name:" + m.Name + ",color:" + m.color + ",Price:" + m.Price + ",company:" + m.Company + ",Memory:" + m.Memory + ",feature:camera:" + m.feature.camera + ",sensor:" + m.feature.sensor + ",touch:" + m.feature.touch;
+            $("#okk0").show();
+            var idHtml = "Id: " + m.Id;
+            var nameHtml = "  Name: " + m.Name;
+            var colorHtml = "  Color: " + m.color;
+            var priceHtml = "  Price: " + m.Price;
+            var companyHtml = "  Company: " + m.Company;
+            var memoryHtml = "  Memory: " + m.Memory;
+            var cameraHtml = "  Camera: " + m.camera;
+            var sensorHtml = "  Sensor: " + m.sensor;
+            var touchHtml = "  Touch: " + m.touch;
+
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("okk0").innerHTML = completeRowHtml;
         });
+
+
         $("#company2").on("change", function() {
             var cmpnys = $("#company2").val();
             var n = _.find(list3, function(val, key) {
@@ -160,9 +254,20 @@ $(document).ready(function() {
             });
             console.log(n);
             $("#rowss").hide();
-            $("#5").show();
-            document.getElementById("5").innerHTML = "Id:" + n.Id + ",name:" + n.Name + ",color:" + n.color + ",Price:" + n.Price + ",company:" + n.Company + ",Memory:" + n.Memory + ",feature:camera:" + n.feature.camera + ",sensor:" + n.feature.sensor + ",touch:" + n.feature.touch;
-        })
+            $("#okk0").show();
+            var idHtml = "Id: " + n.Id;
+            var nameHtml = "  Name: " + n.Name;
+            var colorHtml = "  Color: " + n.color;
+            var priceHtml = "  Price: " + n.Price;
+            var companyHtml = "  Company: " + n.Company;
+            var memoryHtml = "  Memory: " + n.Memory;
+            var cameraHtml = "  Camera: " + n.camera;
+            var sensorHtml = "  Sensor: " + n.sensor;
+            var touchHtml = "  Touch: " + n.touch;
+
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("okk0").innerHTML = completeRowHtml;
+        });
         $("#memory2").on("change", function() {
             var memrys = $("#memory2").val();
             var o = _.find(list3, function(val, key) {
@@ -170,8 +275,89 @@ $(document).ready(function() {
             });
             console.log(o);
             $("#rowss").hide();
-            $("#5").show();
-            document.getElementById("5").innerHTML = "Id:" + o.Id + ",name:" + o.Name + ",color:" + o.color + ",Price:" + o.Price + ",company:" + o.Company + ",Memory:" + o.Memory + ",feature:camera:" + o.feature.camera + ",sensor:" + o.feature.sensor + ",touch:" + o.feature.touch;
+            $("#okk0").show();
+            var idHtml = "Id: " + o.Id;
+            var nameHtml = "  Name: " + o.Name;
+            var colorHtml = "  Color: " + o.color;
+            var priceHtml = "  Price: " + o.Price;
+            var companyHtml = "  Company: " + o.Company;
+            var memoryHtml = "  Memory: " + o.Memory;
+            var cameraHtml = "  Camera: " + o.camera;
+            var sensorHtml = "  Sensor: " + o.sensor;
+            var touchHtml = "  Touch: " + o.touch;
+
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("okk0").innerHTML = completeRowHtml;
+        });
+
+    }
+
+    function Tablettouch() {
+        for (var j = 1; j <= 5; j++) {
+            $("#" + j).hide()
+        }
+        $("#rowss").hide();
+        $("#touch2").on("change", function() {
+            p = document.getElementById("touch2").checked;
+            console.log(p);
+            x = _.filter(list3, function(val, key) {
+                return val.touch == "true";
+                console.log(x);
+            });
+            console.log(x);
+            $("#rowss").hide();
+             $("#okk").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("okk" + i).innerHTML = getRowHtml(rowDataObj);
+            }
+        });
+    }
+   
+
+    function Tabletcamera() {
+        for (var j = 1; j <= 5; j++) {
+            $("#" + j).hide()
+        }
+
+        $("#rowss").hide();
+        $("#camera2").on("change", function() {
+            q = document.getElementById("camera2").checked;
+            console.log(q);
+            x = _.filter(list3, function(val, key) {
+                return val.camera == "true";
+                console.log(x);
+            });
+            console.log(x);
+            $("#rowss").hide();
+            $("#okk").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("okk" + i).innerHTML = getRowHtml(rowDataObj);
+            }
+        });
+    }
+
+    function Tabletsensor() {
+        for (var j = 1; j <= 5; j++) {
+            $("#" + j).hide()
+        }
+
+        $("#rowss").hide();
+        $("#sensor2").on("change", function() {
+            r = document.getElementById("sensor2").checked;
+            console.log(p);
+            x = _.filter(list3, function(val, key) {
+                return val.sensor == "true";
+                console.log(x);
+            });
+            console.log(x);
+            $("#rowss").hide();
+            $("#okk").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("okk" + i).innerHTML = getRowHtml(rowDataObj);
+            }
         });
     }
 
@@ -183,8 +369,19 @@ $(document).ready(function() {
             });
             console.log(e);
             $("#rows").hide();
-            $("#3").show();
-            document.getElementById("3").innerHTML = "Id:" + e.Id + ",name:" + e.Name + ",color:" + e.color + ",Price:" + e.Price + ",company:" + e.Company + ",Memory:" + e.Memory + ",feature:camera:" + e.feature.camera + ",sensor:" + e.feature.sensor + ",touch:" + e.feature.touch;
+            $("#okks0").show();
+            var idHtml = "Id: " + e.Id;
+            var nameHtml = "  Name: " + e.Name;
+            var colorHtml = "  Color: " + e.color;
+            var priceHtml = "  Price: " + e.Price;
+            var companyHtml = "  Company: " + e.Company;
+            var memoryHtml = "  Memory: " + e.Memory;
+            var cameraHtml = "  Camera: " + e.camera;
+            var sensorHtml = "  Sensor: " + e.sensor;
+            var touchHtml = "  Touch: " + e.touch;
+
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("okks0").innerHTML = completeRowHtml;
         });
         $("#company1").on("change", function() {
             var cmpny = $("#company1").val();
@@ -193,9 +390,21 @@ $(document).ready(function() {
             });
             console.log(f);
             $("#rows").hide();
-            $("#3").show();
-            document.getElementById("3").innerHTML = "Id:" + f.Id + ",name:" + f.Name + ",color:" + f.color + ",Price:" + f.Price + ",company:" + f.Company + ",Memory:" + f.Memory + ",feature:camera:" + f.feature.camera + ",sensor:" + f.feature.sensor + ",touch:" + f.feature.touch;
-        })
+            $("#okks0").show();
+            var idHtml = "Id: " + f.Id;
+            var nameHtml = "  Name: " + f.Name;
+            var colorHtml = "  Color: " + f.color;
+            var priceHtml = "  Price: " + f.Price;
+            var companyHtml = "  Company: " + f.Company;
+            var memoryHtml = "  Memory: " + f.Memory;
+            var cameraHtml = "  Camera: " + f.camera;
+            var sensorHtml = "  Sensor: " + f.sensor;
+            var touchHtml = "  Touch: " + f.touch;
+
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("okks0").innerHTML = completeRowHtml;
+        });
+
         $("#memory1").on("change", function() {
             var memry = $("#memory1").val();
             var g = _.find(list2, function(val, key) {
@@ -203,20 +412,85 @@ $(document).ready(function() {
             });
             console.log(g);
             $("#rows").hide();
-            $("#3").show();
-            document.getElementById("3").innerHTML = "Id:" + g.Id + ",name:" + g.Name + ",color:" + g.color + ",Price:" + g.Price + ",company:" + g.Company + ",Memory:" + g.Memory + ",feature:camera:" + g.feature.camera + ",sensor:" + g.feature.sensor + ",touch:" + g.feature.touch;
+            $("#okk0").show();
+            var idHtml = "Id: " + g.Id;
+            var nameHtml = "  Name: " + g.Name;
+            var colorHtml = "  Color: " + g.color;
+            var priceHtml = "  Price: " + g.Price;
+            var companyHtml = "  Company: " + g.Company;
+            var memoryHtml = "  Memory: " + g.Memory;
+            var cameraHtml = "  Camera: " + g.camera;
+            var sensorHtml = "  Sensor: " + g.sensor;
+            var touchHtml = "  Touch: " + g.touch;
+            var completeRowHtml = idHtml + nameHtml + colorHtml + priceHtml + companyHtml + memoryHtml + cameraHtml + sensorHtml + touchHtml;
+            document.getElementById("okks0").innerHTML = completeRowHtml;
         });
     }
 
-    function Allfilter(){
-         $("#price2,#company1,#memory1").on("change", function() {
-            var allmob=$("#price2,#company1,#memory").val();
-            console.log(allmob);
+    function Laptoptouch() {
+        for (var j = 1; j <= 5; j++) {
+            $("#" + j).hide()
+        }
+        $("#rows").hide();
+        $("#touch1").on("change", function() {
+            p = document.getElementById("touch1").checked;
+            console.log(p);
+            x = _.filter(list2, function(val, key) {
+                return val.touch == "true";
+                console.log(x);
             });
-
+            console.log(x);
+            $("#rows").hide();
+            $("#okks").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("okks" + i).innerHTML = getRowHtml(rowDataObj);
+            }
+        });
     }
 
+    function Laptopcamera() {
+        for (var j = 1; j <= 5; j++) {
+            $("#" + j).hide()
+        }
+        $("#rows").hide();
+        $("#camera1").on("change", function() {
+            q = document.getElementById("camera1").checked;
+            console.log(q);
+            x = _.filter(list2, function(val, key) {
+                return val.camera == "true";
+                console.log(x);
+            });
+            console.log(x);
+            $("#rows").hide();
+            $("#okks").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("okks" + i).innerHTML = getRowHtml(rowDataObj);
 
+            }
+        });
+    }
 
-
+    function Laptopsensor() {
+        for (var j = 1; j <= 5; j++) {
+            $("#" + j).hide()
+        }
+        $("#rows").hide();
+        $("#sensor1").on("change", function() {
+            r = document.getElementById("sensor1").checked;
+            console.log(r);
+            x = _.filter(list3, function(val, key) {
+                return val.sensor == "true";
+                console.log(x);
+            });
+            console.log(x);
+            $("#rows").hide();
+            $("#okks").show();
+            for (var i = 0; i < x.length; i++) {
+                var rowDataObj = x[i];
+                document.getElementById("okks" + i).innerHTML = getRowHtml(rowDataObj);
+            }
+        });
+    }
 });
